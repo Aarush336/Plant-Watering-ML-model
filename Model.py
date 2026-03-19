@@ -13,7 +13,7 @@ Y = df["Health_Status"]
 
 X_train, X_test, Y_train, Y_test = train_test_split(X, Y, test_size=0.2, random_state=42)
 
-model = DecisionTreeClassifier()
+model = DecisionTreeClassifier(random_state=42, max_depth=1)
 model.fit(X_train, Y_train)
 prediction = model.predict(X_test)
 
