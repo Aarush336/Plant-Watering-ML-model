@@ -1,3 +1,6 @@
+# Plant Watering ML Model
+# Predicts plant health based on temperature, humidity, and soil moisture
+# Algorithm: Desicion Tree Classifier | Current Accuracy: 85 %
 import pandas as pd
 
 df = pd.read_csv("plant_moniter_health_data.csv")
