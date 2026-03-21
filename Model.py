@@ -23,3 +23,5 @@ prediction = model.predict(X_test)
 from sklearn.metrics import accuracy_score
 accuracy = accuracy_score(Y_test, prediction)
 print(accuracy)
+
+# Next Task: Build Predict function for love sensor input
