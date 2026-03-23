@@ -26,3 +26,4 @@ print(accuracy)
 
 # Next Task: Build Predict function for sensor input
 # Day: 14: Architecture Decided: ESP 32/Arduino -> Cloud Database -> ML Model -> Pump 
+# Day: 15: Studied and analysed some other models using the similar mechanism
