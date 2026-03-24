@@ -27,3 +27,9 @@ print(accuracy)
 # Next Task: Build Predict function for sensor input
 # Day: 14: Architecture Decided: ESP 32/Arduino -> Cloud Database -> ML Model -> Pump 
 # Day: 15: Studied and analysed some other models using the similar mechanism
+
+def predict_watering (temperature, humidity, soil_moisture, soil_pH):
+    new_plant = pd.DataFrame([[temperature, humidity, soil_moisture, soil_pH]], columns = ["Temperature_C", "Humidity_%", "Soil_Moisture_%", "Soil_pH"])
+    result = model.predict(new_plant)
+    return result[0]
+print(predict_watering(42, 35, 28, 6.5))
