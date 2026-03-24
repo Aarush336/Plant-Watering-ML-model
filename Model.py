@@ -31,5 +31,8 @@ print(accuracy)
 def predict_watering (temperature, humidity, soil_moisture, soil_pH):
     new_plant = pd.DataFrame([[temperature, humidity, soil_moisture, soil_pH]], columns = ["Temperature_C", "Humidity_%", "Soil_Moisture_%", "Soil_pH"])
     result = model.predict(new_plant)
-    return result[0]
+    if result[0] == 1:
+        return "Plant is healthy. No water needed."
+    else:
+        return "Plant needs attention. Consider watering"
 print(predict_watering(42, 35, 28, 6.5))
