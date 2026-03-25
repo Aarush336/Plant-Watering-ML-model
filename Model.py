@@ -35,4 +35,4 @@ def predict_watering (temperature, humidity, soil_moisture, soil_pH):
         return "Plant is healthy. No water needed."
     else:
         return "Plant needs attention. Consider watering"
-print(predict_watering(42, 35, 28, 6.5))
+print(predict_watering(30, 25, 15, 5.5))
