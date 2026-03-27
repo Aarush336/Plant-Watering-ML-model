@@ -39,3 +39,4 @@ print(predict_watering(30, 25, 15, 5.5))
 # Example usage:
 # print(predict_watering(42, 35, 28, 6.5))  # Output: Plant is healthy. No water needed.
 # print(predict_watering(30, 25, 15, 5.5))  # Output: Plant needs attention. Consider watering.
+# Day 19: predict_watering() function complete, Firebase integration next
