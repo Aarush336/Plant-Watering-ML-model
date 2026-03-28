@@ -1,4 +1,4 @@
-# Plant Watering ML Model
+# Plant Watering ML Model.
 # Predicts plant health based on temperature, humidity, and soil moisture
 # Algorithm: Desicion Tree Classifier | Current Accuracy: 85 %
 import pandas as pd
